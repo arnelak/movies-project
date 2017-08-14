@@ -1,14 +1,33 @@
 header {
   background-color: rgba(0, 0, 0, 0.5);
   height: 40px;
-  margin-bottom: 30px;
+  transition: height 200ms ease-in-out;
+  overflow: hidden;
+  &.active{
+    height:195px !important;
+  }
 nav{
-  padding-left: 50px;
+  padding-left: 25px;
 }
 nav ul{
   margin-top: 10px;
   text-transform:uppercase;
+  display: none;
  }
+  .navCollapse{
+    padding-left: 10px;
+    background-color: transparent;
+    margin-top: 10px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    i{
+      color: rgba(255,255,255,0.7);
+      &:hover{
+        color: rgba(255,255,255,1);
+      }
+    }
+  }
 .container{
   padding-right: 15px;
   padding-left: 15px;
@@ -25,9 +44,9 @@ a:hover{
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
  }
-i.fa{
-  position: absolute;
-  right: 160px;
+i.searchIcon{
+  position: fixed;
+  right: 95px;
   top: 13px;
   color: rgba(255, 255, 255, 0.7);
   font-size:12px;
@@ -38,10 +57,50 @@ i.fa{
   }
   input{
     display: none;
-    right: 30px;
-    width: 120px;
+    right: 115px;
+    width: 100px;
     position: absolute;
     top: 10px;
     height: 20px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none !important;
+    color: rgba(255,255,255,0.8);
+    outline:0px !important;
+    -webkit-appearance:none;
+    &:focus{
+      border: none;
+      box-shadow: none !important;
+    }
+  }
+}
+
+@media (min-width:768px){
+  .navCollapse{
+    display: none !important;
+  }
+  nav ul{
+    display: block !important;
+  }
+}
+
+@media (max-width: 767px){
+  nav ul{
+    margin-top: 10px;
+    text-transform:uppercase;
+    display: block !important;
+    li{
+      display: block !important;
+      position: relative;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .searchIcon{
+    left: 80px !important;
+  }
+  input{
+    left: 100px !important;
   }
 }
