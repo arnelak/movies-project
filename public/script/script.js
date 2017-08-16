@@ -17,19 +17,19 @@ var moviesObject = [
     {
         title:'Star Trek',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTcyMDkwNzIwOF5BMl5BanBnXkFtZTcwNDU4ODUzOQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
-        genre:'Action, Sci-Fi, adventure',
+        genre:'Action, Sci-Fi',
         year: 2013
     },
     {
         title:'Kung Fu Panda',
         image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyOTQ5NDQyNV5BMl5BanBnXkFtZTcwMzcyNDUwMg@@._V1_.jpg",
-        genre: 'Animation, action, adventure',
+        genre: 'Animation, action',
         year: 2008
     },
     {
         title:'Son of a Gun',
         image: "https://images-na.ssl-images-amazon.com/images/M/MV5BNGI5OWQ2YzctMTcxMS00MWMxLTk1MDQtNmU1ODMyMjkyNmRiL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY1000_CR0,0,692,1000_AL_.jpg",
-        genre:'Action, crime, drama',
+        genre:'Action, crime',
         year:2014
     },
     {
@@ -53,49 +53,49 @@ var moviesObject = [
     {
         title:'Wonder Woman',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BNDFmZjgyMTEtYTk5MC00NmY0LWJhZjktOWY2MzI5YjkzODNlXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SY1000_SX675_AL_.jpg",
-        genre:'Action, adventure, fantasy',
+        genre:'Action, adventure',
         year:2017
     },
     {
         title:'The kid',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTIwMzk2NTE5NF5BMl5BanBnXkFtZTcwMTcyOTAwMQ@@._V1_.jpg",
-        genre:'Comey, fantasy, family',
+        genre:'Comey, fantasy',
         year:2000
     },
     {
         title:'Dunkirk',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
-        genre:'Action, drama, history',
+        genre:'Action, drama',
         year:2017
     },
     {
         title:'Baby Driver',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjM3MjQ1MzkxNl5BMl5BanBnXkFtZTgwODk1ODgyMjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
-        genre:'Action, crime, music',
+        genre:'Action, crime',
         year:2017
     },
     {
         title:'The Boss Baby',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTg5MzUxNzgxNV5BMl5BanBnXkFtZTgwMTM2NzQ3MjI@._V1_SY1000_CR0,0,685,1000_AL_.jpg",
-        genre:'Animation, comedy, family',
+        genre:'Animation, comedy',
         year:2017
     },
     {
         title:'Deadpool',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTUzMjQ5Mzc3M15BMl5BanBnXkFtZTgwNDExMjE3NzE@._V1_SY1000_SX686_AL_.jpg",
-        genre:'Action, adventur, comedy',
+        genre:'Action, adventure',
         year:2016
     },
     {
         title:'Spirited away',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BZTk4YjVlZTQtYmFmOC00MjcxLWJiMWEtNzNhOGJmN2NkY2U3L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,677,1000_AL_.jpg",
-        genre:'Animation, adventure, family',
+        genre:'Animation, adventure',
         year:2001
     },
     {
         title:'The pianist',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,724,1000_AL_.jpg",
-        genre:'Biography, drama, music',
+        genre:'Biography, drama',
         year:2002
     },
     {
@@ -113,7 +113,7 @@ var moviesObject = [
     {
         title:'Inception',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTk4NzE0OTQxMV5BMl5BanBnXkFtZTcwOTE0MjYwMw@@._V1_.jpg",
-        genre:'Action, adventure, Sci-Fi',
+        genre:'Action, adventure',
         year:2010
     },
     {
@@ -131,7 +131,7 @@ var moviesObject = [
     {
         title:'Dancer in the Dark',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BODI1ZmVkMzAtYzlmZC00ZGUyLWIwY2UtNWExMzAyZTBlY2UyXkEyXkFqcGdeQXVyMjQ2MTk1OTE@._V1_SY1000_CR0,0,676,1000_AL_.jpg",
-        genre:'Musical, drama, crime',
+        genre:'Musical, drama',
         year:2000
     },
     {
@@ -143,13 +143,13 @@ var moviesObject = [
     {
         title:"Howl's moving castle",
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMDQzNTFhYzgtYjMwZS00YzQ1LTgxODgtYjFhYTUzMTNmNTIzXkEyXkFqcGdeQXVyMzg2MzE2OTE@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
-        genre:'Animation, adventure, family',
+        genre:'Animation, adventure',
         year:2004
     },
     {
         title:'The Wolf of the Wall Street',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
-        genre:'Biography, comedy, drama',
+        genre:'Biography, comedy',
         year:2013
     },
     {
@@ -161,7 +161,7 @@ var moviesObject = [
     {
         title:'The Bourne supremacy',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BYTIyMDFmMmItMWQzYy00MjBiLTg2M2UtM2JiNDRhOWE4NjBhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_SX676_AL_.jpg",
-        genre:'Action, mystery, thriller',
+        genre:'Action, thriller',
         year:2004
     },
     {
@@ -173,7 +173,7 @@ var moviesObject = [
     {
         title:'The Flowers of War',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3OTUzODA3Ml5BMl5BanBnXkFtZTcwNDk5NTUyNw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
-        genre:'Drama, history, romance',
+        genre:'Drama, history',
         year:2011
     },
     {
@@ -191,13 +191,13 @@ var moviesObject = [
     {
         title:'The Martian',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTcwMjI2NzM2MF5BMl5BanBnXkFtZTgwNDkyNTI5NTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
-        genre:'Adventure, drama, Sci-Fi',
+        genre:'Adventure, drama',
         year:2015
     },
     {
         title:'Mad Max: Fury Road',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjAzMTEzNjgxM15BMl5BanBnXkFtZTgwMTI4NDQzNTE@._V1_SY1000_CR0,0,659,1000_AL_.jpg",
-        genre:'Action, adventure, Sci-fi',
+        genre:'Action, adventure',
         year:2015
     },
     {
@@ -215,7 +215,7 @@ var moviesObject = [
     {
         title:'The Prestige',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_.jpg",
-        genre:'Drama, mystery, Sci-Fi',
+        genre:'Drama, mystery',
         year:2005
     },
     {
@@ -227,7 +227,7 @@ var moviesObject = [
     {
         title:'WALL-E',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BYWNmNDQwZWEtNGZmNS00MGIyLThhZjYtNjlkZDZmMGI1ZGE5XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SY999_CR0,0,695,999_AL_.jpg",
-        genre:'Animation, adventure, family',
+        genre:'Animation, adventure',
         year:2008
     },
     {
@@ -241,12 +241,12 @@ var moviesObject = [
 var list = [];
 list = moviesObject.map(function (item){
 
-    var newli =`<li class="movie col-xs-6 col-sm-4 col-md-3">
+    var newli =`<li class="movie">
                         <div class="wrap">
                             <img class="img-responsive" src="${item.image}">
                             <div class="hiddenDetails">
-                                <h3>Rating</h3>
-                                <h3>Adventure</h3>
+                                <h3>Rating:</h3>
+                                <h3>${item.genre}</h3>
                                 <div class="starIcons">
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star" aria-hidden="true"></i>
