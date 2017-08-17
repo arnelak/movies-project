@@ -4,10 +4,6 @@ $(document).ready(function () {
         $("#myText").fadeToggle();
     });
 
-   // var docHeight = $(document).innerHeight();
-   // $(".backImg").css("height",docHeight+"px");
-
-
     $(".navCollapse").on('click', function () {
         $("header").toggleClass("active");
     });
@@ -264,7 +260,7 @@ list = moviesObject.map(function (item){
                             <img class="img-responsive" src="${item.image}">
                             <div class="hiddenDetails">
                                 <h3>Rating:</h3>
-                                <h3>${item.genre}</h3>
+                                <h3 class="genre">${item.genre}</h3>
                                 <div class="starIcons">
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -281,5 +277,16 @@ list = moviesObject.map(function (item){
     return newli;
 });
 $(".movieList").append(list);
+
+
+$("nav li a").click(function(){
+  $(".movie").show();
+
+  var genreHash = document.location.hash;
+  genreHash = genreHash.slice(1);
+
+  $(".genre:not(:contains('"+genre+"'))").closest(".movie").hide();
+});
+
 
 });
