@@ -276,6 +276,7 @@ list = moviesObject.map(function (item){
                     </li>`;
     return newli;
 });
+
 $(".movieList").append(list);
 
 var genre = document.location.search.split("=");
