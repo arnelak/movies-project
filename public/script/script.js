@@ -260,7 +260,7 @@ list = moviesObject.map(function (item){
                             <img class="img-responsive" src="${item.image}">
                             <div class="hiddenDetails">
                                 <h3>Rating:</h3>
-                                <h3 data-nesto="vrijednost" data-genre="${item.genre.toLowerCase()}" class="genre">${item.genre}</h3>
+                                <h3 data-genre="${item.genre.toLowerCase()}" class="genre">${item.genre}</h3>
                                 <div class="starIcons">
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star" aria-hidden="true"></i>
