@@ -7,6 +7,7 @@ list = moviesObject.map(function (item){
                         <div class="wrap">
                             <img class="img-responsive" src="${item.image}">
                             <div class="hiddenDetails">
+                            <div class="details">
                                 <h3>Rating:</h3>
                                 <h3 data-genre="${item.genre.toLowerCase()}" class="genre">${item.genre}</h3>
                                 <div class="starIcons">
@@ -15,6 +16,7 @@ list = moviesObject.map(function (item){
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star-half-o" aria-hidden="true"></i>
                                     <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </div>
                                 </div>
                                 <button class="btn btn-default detailsBtn"><a href="${item.url}"><b>View More</b></a></button>
                             </div>

@@ -34,9 +34,19 @@ h5{
 .wrap{
   border: 2px solid rgba(255, 255, 255, 0.35);
   width: 100%;
+  height: 75%;
   border-radius: 3%;
   position: relative;
   overflow: hidden;
+  .details{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 40%;
+    margin-bottom: auto;
+    margin-top: 25px;
+  }
   &:hover {
     .hiddenDetails {
       opacity: 1 !important;
@@ -52,6 +62,7 @@ h5{
     filter: blur(0px);
     transition: filter 200ms ease-in-out;
   }
+
   .hiddenDetails{
     text-align: center;
     height: 100%;
@@ -67,7 +78,7 @@ h5{
     transition: opacity 200ms ease-in-out;
   }
   h3{
-    font-size: 17px !important;
+    font-size: 15px !important;
     margin-top: 10px;
     margin-bottom: auto;
   }
@@ -80,8 +91,8 @@ h5{
 .btn{
   margin-right: auto;
   margin-left: auto;
-  padding: 9px 22% !important;
-  margin-bottom: 10px;
+  padding: 10px 22% !important;
+  margin-bottom: 15px;
   margin-top: auto;
   font-size: 10px !important;
   line-height: 1.6 !important;
@@ -101,10 +112,10 @@ h5{
   position: relative;
   align-items: center;
   flex-direction: row;
-  margin-top: auto;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: auto;
   i{
-    margin-top: 0px;
+    margin-top: 5px;
     padding-top: 10px;
     margin-right: 5px;
     margin-left: 5px;
@@ -158,11 +169,6 @@ h5{
   h3{
     font-size:100% !important;
   }
-  .starIcons{
-    i{
-      font-size: 1.2vw;
-    }
-  }
 }
 @media (min-width: 992px){
   .container{
@@ -170,23 +176,23 @@ h5{
   }
 }
 
-
-@media (min-width: 1000px) {
-  h3{
-    margin-top: 27px !important;
-    margin-bottom: 5px !important;
-  }
-}
-
-@media (max-width: 455px) {
+@media (max-width: 435px) {
   .movie{
-    width: 95%!important;
+    width:100%!important;
     padding: 10px!important;
   }
-  h3{
-    font-size: 15px !important;
-  }
+}
+@media (max-width: 315px) {
   .starIcons{
-    font-size: 3vw!important;
+    font-size: 65%!important;
+    i{
+      margin-left: 2px !important;
+    }
+  }
+  .details{
+    margin-top: 5px!important;
+  }
+  .btn{
+    padding: 8px 10% !important
   }
 }
