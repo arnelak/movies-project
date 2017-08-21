@@ -10,8 +10,8 @@ h5{
 }
 .container{
   display: flex;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 85px;
+  padding-left: 85px;
 }
 #mainImg{
   z-index: -1;
@@ -34,7 +34,6 @@ h5{
 .wrap{
   border: 2px solid rgba(255, 255, 255, 0.35);
   width: 100%;
-  height: 22vw;
   border-radius: 3%;
   position: relative;
   overflow: hidden;
@@ -68,33 +67,42 @@ h5{
     transition: opacity 200ms ease-in-out;
   }
   h3{
-    font-size: 15px !important;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    font-size: 17px !important;
+    margin-top: 10px;
+    margin-bottom: auto;
   }
   .detailsBtn{
     display: flex;
-    position: absolute;
-    margin-top: 115%;
+    position: relative;
     align-items: center;
   }
 }
 .btn{
-  padding: 6px 21% !important;
-  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 9px 22% !important;
+  margin-bottom: 10px;
+  margin-top: auto;
   font-size: 10px !important;
   line-height: 1.6 !important;
+  a{
+    color: #636769;
+    &:hover{
+      text-decoration: none;
+      color: #4b4c4c;
+    }
+  }
 }
 .btn-default{
-  color: #5a5858 !important;
   border-color: rgba(173, 173, 173, 0.59)!important;
 }
 .starIcons{
   display: flex;
-  position: absolute;
+  position: relative;
   align-items: center;
   flex-direction: row;
-  margin-top: 60%;
+  margin-top: auto;
+  margin-bottom: 30px;
   i{
     margin-top: 0px;
     padding-top: 10px;
@@ -104,7 +112,7 @@ h5{
   }
 }
 .movie{
-  width: 15vw;
+  width: 25%;
   text-align: left;
   padding: 10px;
   color: rgba(255, 255, 255, 0.7);
@@ -113,10 +121,11 @@ h5{
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0px;
 }
 
 .moviesWrap{
-  width:104%;
+  width:100%;
   height: 100%;
   overflow-y: scroll;
   padding-top: 30px;
@@ -137,7 +146,7 @@ h5{
 }
 @media (max-width: 768px) {
   .wrap{
-    width: 80%;
+    width: 100%;
     height: 80%;
   }
   .movie{
@@ -154,15 +163,14 @@ h5{
       font-size: 1.2vw;
     }
   }
-  .detailsBtn{
-    margin-top: 115% !important;
+}
+@media (min-width: 992px){
+  .container{
+    width:920px !important;
   }
 }
-@media (max-width: 455px) {
-  .btn{
-    padding: 6px 18% !important;
-  }
-}
+
+
 @media (min-width: 1000px) {
   h3{
     margin-top: 27px !important;
@@ -173,14 +181,12 @@ h5{
 @media (max-width: 455px) {
   .movie{
     width: 95%!important;
+    padding: 10px!important;
   }
   h3{
     font-size: 15px !important;
-    margin-top: 15px!important;
-    margin-bottom: -3px!important;
   }
   .starIcons{
-    margin-top: 22vw!important;
     font-size: 3vw!important;
   }
 }

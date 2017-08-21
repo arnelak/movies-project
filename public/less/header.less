@@ -1,14 +1,15 @@
 header {
   background-color: rgba(0, 0, 0, 0.5);
-  height: 40px;
+  height: 38px!important;
   transition: height 200ms ease-in-out;
   overflow: hidden;
   &.active{
-    height:195px !important;
+    height:220px !important;
   }
 nav{
   padding-right: 65px;
-  padding-left: 45px;
+  padding-left: 50px;
+  padding-top: 0px;
 }
 nav ul{
   margin-top: 10px;
@@ -17,7 +18,7 @@ nav ul{
  }
   .list-inline{
     padding-left: 0;
-    margin-left: 0!important;
+    margin-left: 0px!important;
   }
   .navCollapse{
     padding-left: 10px;
@@ -27,6 +28,8 @@ nav ul{
     border: none;
     cursor: pointer;
     i{
+      position: relative;
+      bottom: 2px;
       color: rgba(255,255,255,0.7);
       &:hover{
         color: rgba(255,255,255,1);
@@ -35,7 +38,7 @@ nav ul{
   }
 .container{
   padding-right: 50px;
-  padding-left: 50px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -91,24 +94,27 @@ i.searchIcon{
 
 @media (max-width: 767px){
   nav ul{
-    margin-top: 10px;
     text-transform:uppercase;
     display: block !important;
     li{
+      margin-top: 5px!important;
       display: block !important;
       position: relative;
     }
+  }
+  .navCollapse{
+    margin-top: 13px!important;
   }
 }
 
 @media (max-width: 767px) {
   .searchIcon{
-    left: 110px !important;
+    left: 105px !important;
   }
   input{
     left: 130px !important;
   }
   nav{
-    padding-left: 25px !important;
+    padding-left: 55px !important;
   }
 }
