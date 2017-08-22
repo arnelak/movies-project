@@ -8,9 +8,15 @@ $(document).ready(function(){
   });
 
   var movieElement =
-  `<div>
-  <img src="${movie.image}" />
-  <h3>${movie.title}</h3>
+      `<div class="row">
+   <img id="poster" src="${movie.image}" />
+   <div class="col-xs-9 col-sm-9 col-md-9 singleDescription">
+    <h1>${movie.title}</h1>
+    <h2>(${movie.year})</h2>
+    <p>${movie.description}</p>
+    <h4>Actors</h4>
+    <p>Actors list</p>
+    </div>
   </div>`;
 
   $("#movies .row").append(movieElement);
