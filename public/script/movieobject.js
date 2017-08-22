@@ -7,6 +7,12 @@ var moviesObject = [
         url: 'single.html?movie=star%20trek',
         description: 'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.',
         actors: 'Chris Pine, Zachary Quinto, Zoe Saldana',
+        gallery: [
+          'http://www.treknews.net/wp-content/uploads/2013/04/win-tickets-star-trek-into-darkness-hollywood-premiere.jpg',
+          'http://www.startrek.com/uploads/assets/db_articles/68dd0aa20ab61ed2e70d9387044cdafd02a8801d.jpg',
+          'http://familygeekdom.com/wp-content/uploads/bfi_thumb/2013-0081-307rq81g8okwmo8s9ezjm2.jpg',
+          'http://www.treknews.net/wp-content/uploads/2013/03/alternate-star-trek-into-darkness-teaser-trailer.jpg'
+        ]
     },
     {
         title:'Kung Fu Panda',
@@ -15,7 +21,12 @@ var moviesObject = [
         year: 2008,
         url: 'single.html?movie=kung%20fu%20panda',
         description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.The Dragon Warrior has to clash against the savage Tai Lung as China\'s fate hangs in the balance: However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a tyro in martial arts.',
-        actors:'Jack Black, Ian McShane, Angelina Jolie... '
+        actors:'Jack Black, Ian McShane, Angelina Jolie... ',
+        gallery: [
+          'http://www.tvovermind.com/wp-content/uploads/2017/06/Kung-Fu-Panda-3-Furious-Five-Po.jpg',
+          'http://www.cartoonbrew.com/wp-content/uploads/2015/01/kungfupanda3-1280x600.jpg',
+          'https://s-media-cache-ak0.pinimg.com/originals/29/4e/2b/294e2b32c858c72072faf839bd6f8ec6.jpg'
+        ]
     },
     {
         title:'Son of a Gun',
