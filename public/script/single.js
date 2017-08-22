@@ -16,13 +16,14 @@ $(document).ready(function(){
           <h1>${movie.title}</h1>
           <h2>(${movie.year})</h2>
           <p>${movie.description}</p>
-          <h4>Actors</h4>
-          <p>Actors list</p>
+          <h4>Actors:</h4>
+          <p>${movie.actors}</p>
         </div>
       </div>`;
 
   $("#movies .row").append(movieElement);
 
   $("#mainImg").attr("src", movie.image);
+
 
 });

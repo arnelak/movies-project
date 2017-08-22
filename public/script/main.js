@@ -6,4 +6,5 @@ $(document).ready(function(){
   $(".navCollapse").on('click', function () {
       $("header").toggleClass("active");
   });
+
 });

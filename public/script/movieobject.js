@@ -1,11 +1,12 @@
 var moviesObject = [
     {
-        title:'Star Trek',
-        image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTcyMDkwNzIwOF5BMl5BanBnXkFtZTcwNDU4ODUzOQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
-        genre:'Action',
+        title: 'Star Trek',
+        image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTcyMDkwNzIwOF5BMl5BanBnXkFtZTcwNDU4ODUzOQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+        genre: 'Action',
         year: 2013,
         url: 'single.html?movie=star%20trek',
-        description: 'After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.'
+        description: 'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.',
+        actors: 'Chris Pine, Zachary Quinto, Zoe Saldana',
     },
     {
         title:'Kung Fu Panda',
@@ -13,7 +14,8 @@ var moviesObject = [
         genre: 'Animation',
         year: 2008,
         url: 'single.html?movie=kung%20fu%20panda',
-        description:'The Dragon Warrior has to clash against the savage Tai Lung as China\'s fate hangs in the balance: However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a tyro in martial arts.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.The Dragon Warrior has to clash against the savage Tai Lung as China\'s fate hangs in the balance: However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a tyro in martial arts.',
+        actors:'Jack Black, Ian McShane, Angelina Jolie... '
     },
     {
         title:'Son of a Gun',
@@ -21,7 +23,8 @@ var moviesObject = [
         genre:'Action',
         year:2014,
         url: 'single.html?movie=son%20of%20a%20gun',
-        description:'JR busts out of prison with Brendan Lynch, Australia\'s most notorious criminal, and joins Lynch\'s gang for a gold heist that soon pits the two men against one another.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.JR busts out of prison with Brendan Lynch, Australia\'s most notorious criminal, and joins Lynch\'s gang for a gold heist that soon pits the two men against one another.',
+        actors:'Ewan McGregor, Brenton Thwaites, Alicia Vikander... '
     },
     {
         title:'Mr.Right',
@@ -29,7 +32,8 @@ var moviesObject = [
         genre:'Comedy',
         year:2015,
         url: 'single.html?movie=Mr.right',
-        description:'A girl falls for the "perfect" guy, who happens to have a very fatal flaw: he\'s a hitman on the run from the crime cartels who employ him.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A girl falls for the "perfect" guy, who happens to have a very fatal flaw: he\'s a hitman on the run from the crime cartels who employ him.',
+        actors:' Anna Kendrick, Sam Rockwell, Tim Roth...'
     },
     {
         title:'The Finest Hours',
@@ -37,7 +41,8 @@ var moviesObject = [
         genre:'Drama',
         year:2015,
         url: 'single.html?movie=the%20finest%20hours',
-        description:'The Coast Guard makes a daring rescue attempt off the coast of Cape Cod after a pair of oil tankers are destroyed during a blizzard in 1952.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.The Coast Guard makes a daring rescue attempt off the coast of Cape Cod after a pair of oil tankers are destroyed during a blizzard in 1952.',
+        actors:' Chris Pine, Casey Affleck, Ben Foster..'
     },
     {
         title:"Everybody's fine",
@@ -45,7 +50,8 @@ var moviesObject = [
         genre:'Adventure',
         year:2009,
         url: 'single.html?movie=everybody%27s%20fine',
-        description:'A widower who realized his only connection to his family was through his wife sets off on an impromptu road trip to reunite with each of his grown children.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A widower who realized his only connection to his family was through his wife sets off on an impromptu road trip to reunite with each of his grown children.',
+        actors:' Robert De Niro, Kate Beckinsale, Sam Rockwell..'
     },
     {
         title:'Wonder Woman',
@@ -53,7 +59,8 @@ var moviesObject = [
         genre:'Adventure',
         year:2017,
         url: 'single.html?movie=wonder%20woman',
-        description:'Before she was Wonder Woman, she was Diana, princess of the Amazons, trained warrior. When a pilot crashes and tells of conflict in the outside world, she leaves home to fight a war, discovering her full powers and true destiny.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.Before she was Wonder Woman, she was Diana, princess of the Amazons, trained warrior. When a pilot crashes and tells of conflict in the outside world, she leaves home to fight a war, discovering her full powers and true destiny.',
+        actors:'Robert De Niro, Kate Beckinsale, Sam Rockwell..'
     },
     {
         title:'The Kid',
@@ -61,7 +68,8 @@ var moviesObject = [
         genre:'Comedy',
         year:2000,
         url: 'single.html?movie=the%20kid',
-        description:'An unhappy and disliked image consultant gets a second shot at life when he is mysteriously confronted by an eight-year-old version of himself.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.An unhappy and disliked image consultant gets a second shot at life when he is mysteriously confronted by an eight-year-old version of himself.',
+        actors:' Bruce Willis, Spencer Breslin, Emily Mortimer..'
     },
     {
         title:'Dunkirk',
@@ -69,7 +77,8 @@ var moviesObject = [
         genre:'Drama',
         year:2017,
         url: 'single.html?movie=dunkirk',
-        description:'Allied soldiers from Belgium, the British Empire and France are surrounded by the German army and evacuated during a fierce battle in World War II.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.Allied soldiers from Belgium, the British Empire and France are surrounded by the German army and evacuated during a fierce battle in World War II.',
+        actors:' Fionn Whitehead, Damien Bonnard, Aneurin Barnard ..'
     },
     {
         title:'Baby Driver',
@@ -77,7 +86,8 @@ var moviesObject = [
         genre:'Action',
         year:2017,
         url: 'single.html?movie=baby%20driver',
-        description:'After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.',
+        actors:' Ansel Elgort, Jon Bernthal, Jon Hamm ..'
     },
     {
         title:'The Boss Baby',
@@ -85,7 +95,8 @@ var moviesObject = [
         genre:'Animation',
         year:2017,
         url: 'single.html?movie=the%20boss%20baby',
-        description:'A suit-wearing, briefcase-carrying baby pairs up with his 7-year old brother to stop the dastardly plot of the CEO of Puppy Co.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A suit-wearing, briefcase-carrying baby pairs up with his 7-year old brother to stop the dastardly plot of the CEO of Puppy Co.',
+        actors:'  Alec Baldwin, Steve Buscemi, Jimmy Kimmel ..'
     },
     {
         title:'Deadpool',
@@ -93,7 +104,8 @@ var moviesObject = [
         genre:'Action',
         year:2016,
         url: 'single.html?movie=deadpool',
-        description:'A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a quest for revenge.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a quest for revenge.',
+        actors:'Ryan Reynolds, Morena Baccarin, T.J. Miller ..'
     },
     {
         title:'Spirited away',
@@ -101,7 +113,8 @@ var moviesObject = [
         genre:'Animation',
         year:2001,
         url: 'single.html?movie=spirited%20away',
-        description:'During her family\'s move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.During her family\'s move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.',
+        actors:' Daveigh Chase, Suzanne Pleshette, Miyu Irino ..'
     },
     {
         title:'The pianist',
@@ -109,7 +122,8 @@ var moviesObject = [
         genre:'Drama',
         year:2002,
         url: 'single.html?movie=the%20pianist',
-        description:'A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     },
     {
         title:'The Dark Knight',
@@ -117,7 +131,8 @@ var moviesObject = [
         genre:'Action',
         year:2008,
         url: 'single.html?movie=the%20dark%20knight',
-        description:'When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     },
     {
         title:'The Godfather',
@@ -125,7 +140,8 @@ var moviesObject = [
         genre:'Drama',
         year:1972,
         url: 'single.html?movie=the%20godfather',
-        description:'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     },
     {
         title:'Inception',
@@ -133,7 +149,8 @@ var moviesObject = [
         genre:'Action',
         year:2010,
         url: 'single.html?movie=inception',
-        description:'A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     },
     {
         title:'Life is Beautiful',
@@ -141,7 +158,8 @@ var moviesObject = [
         genre:'Comedy',
         year:1997,
         url: 'single.html?movie=life%20is%20beautiful',
-        description:'When an open-minded Jewish librarian and his son become victims of the Holocaust, he uses a perfect mixture of will, humor and imagination to protect his son from the dangers around their camp.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.When an open-minded Jewish librarian and his son become victims of the Holocaust, he uses a perfect mixture of will, humor and imagination to protect his son from the dangers around their camp.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     },
     {
         title:'Room',
@@ -149,7 +167,8 @@ var moviesObject = [
         genre:'Drama',
         year:2015,
         url: 'single.html?movie=room',
-        description:'A young boy is raised within the confines of a small shed.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A young boy is raised within the confines of a small shed.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     },
     {
         title:'Dancer in the Dark',
@@ -157,7 +176,8 @@ var moviesObject = [
         genre:'Drama',
         year:2000,
         url: 'single.html?movie=dancer%20in%20the%20dark',
-        description:'An east European girl goes to America with her young son, expecting it to be like a Hollywood film.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.An east European girl goes to America with her young son, expecting it to be like a Hollywood film.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     },
     {
         title:'Before sunrise',
@@ -165,7 +185,8 @@ var moviesObject = [
         genre:'Drama',
         year:1995,
         url: 'single.html?movie=before%20sunrise',
-        description:'A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     },
     {
         title:'The Cabin in the Woods',
@@ -173,7 +194,8 @@ var moviesObject = [
         genre:'Horror',
         year:2012,
         url: 'single.html?movie=the%20cabin%20in%20the%20woods',
-        description:'Five friends go for a break at a remote cabin, where they get more than they bargained for, discovering the truth behind the cabin in the woods.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.Five friends go for a break at a remote cabin, where they get more than they bargained for, discovering the truth behind the cabin in the woods.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     },
     {
         title:"Howl's moving castle",
@@ -181,7 +203,8 @@ var moviesObject = [
         genre:'Animation',
         year:2004,
         url: 'single.html?movie=howl%27s%20moving%20castle',
-        description:'When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     },
     {
         title:'The Wolf of the Wall Street',
@@ -189,7 +212,8 @@ var moviesObject = [
         genre:'Comedy',
         year:2013,
         url: 'single.html?movie=the%20wolf%20of%20the%20wall%20street',
-        description:'Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     },
     {
         title:'Django Unchained',
@@ -197,7 +221,8 @@ var moviesObject = [
         genre:'Drama',
         year:2012,
         url: 'single.html?movie=django%20unchaind',
-        description:'With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     },
     {
         title:'The Bourne Supremacy',
@@ -205,7 +230,8 @@ var moviesObject = [
         genre:'Action',
         year:2004,
         url: 'single.html?movie=the%20bourne%20supremacy',
-        description:'When Jason Bourne is framed for a CIA operation gone awry, he is forced to resume his former life as a trained assassin to survive.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.When Jason Bourne is framed for a CIA operation gone awry, he is forced to resume his former life as a trained assassin to survive.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     },
     {
         title:'Shot Caller',
@@ -213,7 +239,8 @@ var moviesObject = [
         genre:'Thriller',
         year:2017,
         url: 'single.html?movie=shot%20caller',
-        description:'A newly released prison gangster is forced by the leaders of his gang to orchestrate a major crime with a brutal rival gang on the streets of Southern California.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A newly released prison gangster is forced by the leaders of his gang to orchestrate a major crime with a brutal rival gang on the streets of Southern California.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay'
     },
     {
         title:'The Flowers of War',
@@ -221,7 +248,8 @@ var moviesObject = [
         genre:'Drama',
         year:2011,
         url: 'single.html?movie=the%20flowers%20of%20war',
-        description:'A Westerner finds refuge with a group of women in a church during Japan\'s rape of Nanking in 1937. Posing as a priest, he attempts to lead the women to safety.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A Westerner finds refuge with a group of women in a church during Japan\'s rape of Nanking in 1937. Posing as a priest, he attempts to lead the women to safety.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay'
     },
     {
         title:'Black Swan',
@@ -229,7 +257,8 @@ var moviesObject = [
         genre:'Thriller',
         year:2010,
         url: 'single.html?movie=black%20swan',
-        description:'A committed dancer wins the lead role in a production of Tchaikovsky\'s "Swan Lake" only to find herself struggling to maintain her sanity.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A committed dancer wins the lead role in a production of Tchaikovsky\'s "Swan Lake" only to find herself struggling to maintain her sanity.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     },
     {
         title:'The Hateful Eight',
@@ -237,7 +266,8 @@ var moviesObject = [
         genre:'Drama',
         year:2015,
         url: 'single.html?movie=the%hateful%20eight',
-        description:'In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay'
     },
     {
         title:'The Martian',
@@ -245,7 +275,8 @@ var moviesObject = [
         genre:'Adventure',
         year:2015,
         url: 'single.html?movie=the%20martian',
-        description:'An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay'
     },
     {
         title:'Mad Max: Fury Road',
@@ -253,7 +284,8 @@ var moviesObject = [
         genre:'Action',
         year:2015,
         url: 'single.html?movie=mad%20max%3A%20fury%20road',
-        description:'A woman rebels against a tyrannical ruler in postapocalyptic Australia in search for her home-land with the help of a group of female prisoners, a psychotic worshipper, and a drifter named Max.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A woman rebels against a tyrannical ruler in postapocalyptic Australia in search for her home-land with the help of a group of female prisoners, a psychotic worshipper, and a drifter named Max.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay'
     },
     {
         title:'Passengers',
@@ -261,7 +293,8 @@ var moviesObject = [
         genre:'Adventure',
         year:2016,
         url: 'single.html?movie=passengers',
-        description:'A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay'
     },
     {
         title:'Get Out',
@@ -269,7 +302,8 @@ var moviesObject = [
         genre:'Horror',
         year:2017,
         url: 'single.html?movie=get%20out',
-        description:'It\'s time for a young African American to meet with his white girlfriend\'s parents for a weekend in their secluded estate in the woods, but before long, the friendly and polite ambience will give way to a nightmare.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.It\'s time for a young African American to meet with his white girlfriend\'s parents for a weekend in their secluded estate in the woods, but before long, the friendly and polite ambience will give way to a nightmare.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay'
     },
     {
         title:'Pocahontas',
@@ -277,7 +311,8 @@ var moviesObject = [
         genre:'Animation',
         year:1995,
         url: 'single.html?movie=pocahontas',
-        description:'An English soldier and the daughter of an Algonquin chief share a romance when English colonists invade seventeenth-century Virginia.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.An English soldier and the daughter of an Algonquin chief share a romance when English colonists invade seventeenth-century Virginia.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay'
     },
     {
         title:'The Prestige',
@@ -285,7 +320,8 @@ var moviesObject = [
         genre:'Drama',
         year:2005,
         url: 'single.html?movie=the%20prestige',
-        description:'After a tragic accident two stage magicians engage in a battle to create the ultimate illusion whilst sacrificing everything they have to outwit the other.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.After a tragic accident two stage magicians engage in a battle to create the ultimate illusion whilst sacrificing everything they have to outwit the other.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay'
     },
     {
         title:'The Notebook',
@@ -293,7 +329,8 @@ var moviesObject = [
         genre:'Drama',
         year:2004,
         url: 'single.html?movie=the%20notebook',
-        description:'A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay'
     },
     {
         title:'WALL-E',
@@ -301,7 +338,8 @@ var moviesObject = [
         genre:'Animation',
         year:2008,
         url: 'single.html?movie=wall-e',
-        description:'In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay',
     },
     {
         title:'The Big Sick',
@@ -309,7 +347,8 @@ var moviesObject = [
         genre:'Comedy',
         year:2017,
         url: 'single.html?movie=the%20big%20sick',
-        description:'Pakistan-born comedian Kumail Nanjiani and grad student Emily Gardner fall in love but struggle as their cultures clash. When Emily contracts a mysterious illness, Kumail finds himself forced to face her feisty parents, his family\'s expectations, and his true feelings.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.Pakistan-born comedian Kumail Nanjiani and grad student Emily Gardner fall in love but struggle as their cultures clash. When Emily contracts a mysterious illness, Kumail finds himself forced to face her feisty parents, his family\'s expectations, and his true feelings.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay..'
     },
     {
         title:'The Mist',
@@ -317,6 +356,7 @@ var moviesObject = [
         genre:'Horror',
         year:2007,
         url: 'single.html?movie=the%20mist',
-        description:'A freak storm unleashes a species of bloodthirsty creatures on a small town, where a small band of citizens hole up in a supermarket and fight for their lives.'
+        description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.A freak storm unleashes a species of bloodthirsty creatures on a small town, where a small band of citizens hole up in a supermarket and fight for their lives.',
+        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..'
     }
 ];
