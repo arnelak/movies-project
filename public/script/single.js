@@ -8,16 +8,18 @@ $(document).ready(function(){
   });
 
   var movieElement =
-      `<div class="row">
-   <img id="poster" src="${movie.image}" />
-   <div class="col-xs-9 col-sm-9 col-md-9 singleDescription">
-    <h1>${movie.title}</h1>
-    <h2>(${movie.year})</h2>
-    <p>${movie.description}</p>
-    <h4>Actors</h4>
-    <p>Actors list</p>
-    </div>
-  </div>`;
+      `<div class="col-xs-12 col-sm-5">
+          <img class="img-responsive" id="poster" src="${movie.image}" />
+      </div>
+      <div class="col-xs-12 col-sm-7">
+        <div class="singleDescription">
+          <h1>${movie.title}</h1>
+          <h2>(${movie.year})</h2>
+          <p>${movie.description}</p>
+          <h4>Actors</h4>
+          <p>Actors list</p>
+        </div>
+      </div>`;
 
   $("#movies .row").append(movieElement);
 
