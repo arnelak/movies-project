@@ -9,7 +9,12 @@
   <link rel="stylesheet" href="public/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-  <script src="public/script/main.js"></script>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type='text/javascript' src='unitegallery-master/dist/js/unitegallery.min.js'></script>
+    <link rel='stylesheet' href='unitegallery-master/dist/css/unite-gallery.css' type='text/css' />
+    <script type='text/javascript' src='unitegallery-master/dist/themes/default/ug-theme-default.js'></script>
+    <link rel='stylesheet' href='unitegallery-master/dist/themes/default/ug-theme-default.css' type='text/css' />
+    <script src="public/script/main.js"></script>
   <script src="public/script/movieobject.js"></script>
   <script src="public/script/single.js"></script>
 </head>
@@ -44,5 +49,12 @@
               </div>
           </div>
       </div>
+  <script type="text/javascript">
+
+      jQuery(document).ready(function(){
+          jQuery("#gallery").unitegallery();
+      });
+
+  </script>
 </body>
 </html>
