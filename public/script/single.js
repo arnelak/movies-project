@@ -18,21 +18,10 @@ $(document).ready(function(){
           <p>${movie.description}</p>
           <h4>Actors:</h4>
           <p>${movie.actors}</p>
-          <div class="popup-gallery">
+          <div id="gallery">
           ${ movie.gallery.map(function(imageUrl){
-             return `<a href=${imageUrl} title=${movie.title}><img src=${imageUrl}></a>`;
+             return `<img data-image=${imageUrl} src=${imageUrl} alt=${movie.title} data-description=${movie.title}/>`;
           }) }
-          <div id="gallery" style="display:none;">
-		
-			<img alt="Image 1 Title" src="thumbs/image1.jpg"
-				data-image="images/image1.jpg"
-				data-description="Image 1 Description">
-			
-			<img alt="Image 2 Title" src="thumbs/image2.jpg"
-				data-image="images/image02.jpg"
-				data-description="Image 2 Description">
-		
-		</div>
           </div>
         </div>
       </div>`;
