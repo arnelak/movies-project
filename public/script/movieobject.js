@@ -182,7 +182,7 @@ var moviesObject = [
         ]
     },
     {
-        title:'Spirited away',
+        title:'Spirited Away',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BZTk4YjVlZTQtYmFmOC00MjcxLWJiMWEtNzNhOGJmN2NkY2U3L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,677,1000_AL_.jpg",
         genre:'Animation',
         year:2001,
@@ -198,7 +198,7 @@ var moviesObject = [
         ]
     },
     {
-        title:'The pianist',
+        title:'The Pianist',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,724,1000_AL_.jpg",
         genre:'Drama',
         year:2002,
@@ -305,7 +305,7 @@ var moviesObject = [
         ]
     },
     {
-        title:'Before sunrise',
+        title:'Before Sunrise',
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BZDdiZTAwYzAtMDI3Ni00OTRjLTkzN2UtMGE3MDMyZmU4NTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,672,1000_AL_.jpg",
         genre:'Drama',
         year:1995,
@@ -335,7 +335,7 @@ var moviesObject = [
         ]
     },
     {
-        title:"Howl's moving castle",
+        title:"Howl's Moving Castle",
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMDQzNTFhYzgtYjMwZS00YzQ1LTgxODgtYjFhYTUzMTNmNTIzXkEyXkFqcGdeQXVyMzg2MzE2OTE@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
         genre:'Animation',
         year:2004,
@@ -373,9 +373,9 @@ var moviesObject = [
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjIzODg5MDUyNF5BMl5BanBnXkFtZTcwMTA3NDU2OA@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
         genre:'Drama',
         year:2012,
-        url: 'single.html?movie=django%20unchaind',
+        url: 'single.html?movie=django%20unchained',
         description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.',
-        actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay ..',
+        actors:'Adrien Brody, Thomas Kretschmann, Frank Finlay ..',
         gallery:[
             'https://images-na.ssl-images-amazon.com/images/M/MV5BMTY0NzU1Nzk2MF5BMl5BanBnXkFtZTcwNjE4Mzg2OA@@._V1_SY1000_CR0,0,657,1000_AL_.jpg',
             'https://images-na.ssl-images-amazon.com/images/M/MV5BOTA2NjY5NzY3NV5BMl5BanBnXkFtZTcwNzcyNjY4Nw@@._V1_.jpg',
@@ -449,7 +449,7 @@ var moviesObject = [
         image:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
         genre:'Drama',
         year:2015,
-        url: 'single.html?movie=the%hateful%20eight',
+        url: 'single.html?movie=the%20hateful%20eight',
         description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.',
         actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay',
         gallery:[
@@ -529,10 +529,13 @@ var moviesObject = [
         description:'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.An English soldier and the daughter of an Algonquin chief share a romance when English colonists invade seventeenth-century Virginia.',
         actors:' Adrien Brody, Thomas Kretschmann, Frank Finlay',
         gallery:[
-            '',
-            '',
-            '',
-            ''
+            'https://images-na.ssl-images-amazon.com/images/M/MV5BMTc4NTQ3ODc3N15BMl5BanBnXkFtZTcwMDUyNTIyNw@@._V1_SY1000_CR0,0,1686,1000_AL_.jpg',
+            'https://images-na.ssl-images-amazon.com/images/M/MV5BMjE1MjU0MTU1OF5BMl5BanBnXkFtZTcwMjQyNTIyNw@@._V1_SY1000_CR0,0,1686,1000_AL_.jpg',
+            'https://images-na.ssl-images-amazon.com/images/M/MV5BMjA3NTM0NDQ3NF5BMl5BanBnXkFtZTcwMzYyNTIyNw@@._V1_SY1000_CR0,0,1688,1000_AL_.jpg',
+            'https://images-na.ssl-images-amazon.com/images/M/MV5BYmRlNWJhYTktMTUxNC00OWVhLTgzNDYtMWE5OTUwNTdjNWFhXkEyXkFqcGdeQXVyNTQxMTIxMTk@._V1_SX1777_CR0,0,1777,999_AL_.jpg',
+            'https://images-na.ssl-images-amazon.com/images/M/MV5BMjE4NTYzNzk3Ml5BMl5BanBnXkFtZTcwNzQyNTIyNw@@._V1_SY1000_CR0,0,1686,1000_AL_.jpg',
+            'https://images-na.ssl-images-amazon.com/images/M/MV5BMjE1MjM5MTg1N15BMl5BanBnXkFtZTcwMjUyNTIyNw@@._V1_SY1000_CR0,0,1688,1000_AL_.jpg'
+
         ]
     },
     {
@@ -550,7 +553,6 @@ var moviesObject = [
             'https://images-na.ssl-images-amazon.com/images/M/MV5BMTA2NjA2MzIzOTNeQTJeQWpwZ15BbWU3MDAyMzQzMjM@._V1_SY1000_CR0,0,1506,1000_AL_.jpg',
             'https://images-na.ssl-images-amazon.com/images/M/MV5BMjI1MjA3MTQ3MF5BMl5BanBnXkFtZTcwMjAzNDMyMw@@._V1_SY1000_CR0,0,666,1000_AL_.jpg',
             'https://images-na.ssl-images-amazon.com/images/M/MV5BODU0MjQwNjQ0Ml5BMl5BanBnXkFtZTcwMDYzNDMyMw@@._V1_SY1000_CR0,0,1503,1000_AL_.jpg',
-            'https://images-na.ssl-images-amazon.com/images/M/MV5BMjAwNzIyNTAxMl5BMl5BanBnXkFtZTcwOTUzNDMyMw@@._V1_SY1000_CR0,0,1503,1000_AL_.jpg',
             'https://images-na.ssl-images-amazon.com/images/M/MV5BMjAwNzIyNTAxMl5BMl5BanBnXkFtZTcwOTUzNDMyMw@@._V1_SY1000_CR0,0,1503,1000_AL_.jpg'
         ]
     },
