@@ -18,13 +18,14 @@ $(document).ready(function(){
           <p>${movie.description}</p>
           <h4>Actors:</h4>
           <p>${movie.actors}</p>
-                <div class="popup-gallery">
-          ${ movie.gallery.map(function(imageUrl){
-          return `<a href=${imageUrl} title=${movie.title}><img src=${imageUrl}></a>`;
-                  }) }
+          <div class="popup-gallery">
+              ${ movie.gallery.map(function(imageUrl){
+              return `<a href=${imageUrl} title=${movie.title}><img src=${imageUrl}></a>`;
+          }).join("") }
          </div>
           </div>
         </div>`;
+
 
   $("#movies .row").append(movieElement);
 
