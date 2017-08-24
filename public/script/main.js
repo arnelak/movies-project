@@ -7,4 +7,10 @@ $(document).ready(function(){
       $("header").toggleClass("active");
   });
 
+    $(".leftArrow").hover(function () {
+        $(".return .homePage").show().fadeOut(1000);
+
+    });
+
 });
+

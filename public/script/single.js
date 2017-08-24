@@ -16,6 +16,8 @@ $(document).ready(function(){
           <h1>${movie.title}</h1>
           <h2>(${movie.year})</h2>
           <p>${movie.description}</p>
+          <h4>Genre:</h4>
+          <p>${movie.genre}</p>
           <h4>Actors:</h4>
           <p>${movie.actors}</p>
           <div class="popup-gallery">
