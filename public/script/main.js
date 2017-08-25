@@ -8,7 +8,7 @@ $(document).ready(function(){
   });
 
     $(".leftArrow").hover(function () {
-        $(".return .homePage").show().fadeOut(1000);
+        $(".return .back").show().fadeOut();
 
     });
 
