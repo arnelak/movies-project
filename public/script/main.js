@@ -8,7 +8,10 @@ $(document).ready(function(){
   });
 
     $(".leftArrow").hover(function () {
-        $(".return .back").show().fadeOut();
+        $(".return .back").fadeOut();
+        $(this).mouseenter(function () {
+            $(".return .back").fadeIn();
+        });
 
     });
 
