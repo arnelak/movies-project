@@ -43,36 +43,30 @@ h2{
     padding-top: 0px;
   }
 }
+
+
+.return{
+  display: block;
+  height: 20px;
+  margin-top: -15px;
+    .leftArrow{
+      cursor: pointer;
+      color: rgba(255, 255, 255, 0.35)!important;
+      font-size: 16px;
+      transition: opacity 200ms linear;
+      &:hover{
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.8)!important;
+        text-shadow: 1px 0px 9px rgba(230, 209, 184, 0.5);
+      }
+    }
+  }
 .back{
   display:none;
   font-size: 15px!important;
   color: rgba(255,255,255,0.2) !important;
-  margin-top: -20px !important;
+  margin-top: -18px !important;
   margin-left:20px !important;
-  z-index: 1;
-}
-.return{
-  left: 15px;
-  position:relative;
-  top:-10px;
-  z-index: 1;
-  .leftArrow{
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.35)!important;
-    font-size: 16px;
-    transition: opacity 200ms linear;
-    &:hover{
-      font-size: 21px;
-      color: rgba(255, 255, 255, 0.8)!important;
-      text-shadow: 1px 0px 9px rgba(230, 209, 184, 0.5);
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  .return{
-    left: 5px!important;
-  }
 }
 
 .popup-gallery{

@@ -7,10 +7,10 @@ $(document).ready(function(){
       $("header").toggleClass("active");
   });
 
-    $(".leftArrow").hover(function () {
-        $(".return .back").fadeOut();
+    $(".backRow .return").hover(function () {
+        $(".return .back").hide();
         $(this).mouseenter(function () {
-            $(".return .back").fadeIn();
+            $(".return .back").show();
         });
 
     });
