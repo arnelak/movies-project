@@ -55,19 +55,12 @@ h2{
       font-size: 16px;
       transition: opacity 200ms linear;
       &:hover{
-        font-size: 20px;
+        font-size: 22px;
         color: rgba(255, 255, 255, 0.8)!important;
         text-shadow: 1px 0px 9px rgba(230, 209, 184, 0.5);
       }
     }
   }
-.back{
-  display:none;
-  font-size: 15px!important;
-  color: rgba(255,255,255,0.2) !important;
-  margin-top: -18px !important;
-  margin-left:20px !important;
-}
 
 .popup-gallery{
   margin-top: 20px!important;
@@ -96,10 +89,27 @@ h2{
   display: flex;
   flex-wrap: wrap;
   & > div{
-    width: 115px;
+    width: 100px;
     margin-right: 10px;
     img{
-      border: 1px solid rgba(255,255,255,0.1);
+      border: 1px solid rgba(245, 194, 21, 0.4);
+      height: 150px!important;
+    }
+    h3{
+      margin-top: 10px!important;
+      margin-bottom: 5px!important;
+      font-size: 14px!important;
+     color: #f9e4cc;
+      &:hover{
+       text-shadow: 1px 1px 10px rgba(0,0, 0, 0.9) !important;
+      }
+    }
+    p{
+      font-size: 13px!important;
+      color: rgba(230, 209, 184,0.7);
+    }
+    a:hover{
+      text-decoration: none;
     }
   }
 }
