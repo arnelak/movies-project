@@ -20,9 +20,9 @@ $(document).ready(function(){
           <p>${movie.genre}</p>
           <h4>Actors:</h4>
           <ul>
-      ${movie.actors.split("").map(function (item) {
-          return `<li><a href="actors.html?name=encodeURI(item)">${movie.actors}</a></li>`;
-      })}
+      ${movie.actors.split(", ").map(function (item) {
+          return `<li><a href=actors.html?name=${encodeURI(item)}>${item}</a></li>`;
+      }).join("")}
       </ul>
           <div class="popup-gallery">
               ${ movie.gallery.map(function(imageUrl){
