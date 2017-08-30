@@ -29,6 +29,7 @@ list = moviesObject.map(function (item){
 
 $(".movieList").append(list);
 
+
 if(document.location.search){
   var genre = document.location.search.split("=");
   $('.genre').not(`[data-genre*="${genre[1]}"]`).closest(".movie").hide();

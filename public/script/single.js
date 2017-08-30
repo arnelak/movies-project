@@ -19,7 +19,11 @@ $(document).ready(function(){
           <h4>Genre:</h4>
           <p>${movie.genre}</p>
           <h4>Actors:</h4>
-          <p>${movie.actors}</p>
+          <ul>
+      ${movie.actors.split("").map(function (item) {
+          return `<li><a href="actors.html?name=encodeURI(item)">${movie.actors}</a></li>`;
+      })}
+      </ul>
           <div class="popup-gallery">
               ${ movie.gallery.map(function(imageUrl){
               return `<a href=${imageUrl} title=${movie.title}><img src=${imageUrl}></a>`;
@@ -29,12 +33,16 @@ $(document).ready(function(){
      </div>`;
 
 
+
+
   $("#movies .row").append(movieElement);
 
   $("#mainImg").attr("src", movie.image);
 
 
-var suggestions = moviesObject.filter(function(item){
+
+
+    var suggestions = moviesObject.filter(function(item){
   if(movie.title != item.title){
     if(_.intersection(movie.keywords, item.keywords).length){
       item.intersection = _.intersection(movie.keywords, item.keywords).length;

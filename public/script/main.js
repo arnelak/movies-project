@@ -7,13 +7,13 @@ $(document).ready(function(){
       $("header").toggleClass("active");
   });
 
-    $(".backRow .return").hover(function () {
+   /* $(".backRow .return").hover(function () {
         $(".return .back").hide();
         $(this).mouseenter(function () {
             $(".return .back").show();
         });
 
-    });
+    });*/
 
 });
 
