@@ -20,6 +20,4 @@ $(document).ready(function () {
   // Pronaci kroz actors.forEach(...) da bude (item.name == actorName) i vratit taj item
   // u njemu ces imat tacnog glumca
 
-  console.info(decoded);
-
 });
