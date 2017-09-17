@@ -18,7 +18,7 @@ list = moviesObject.map(function (item){
                                     <i class="fa fa-star-o" aria-hidden="true"></i>
                                 </div>
                                 </div>
-                                <button class="btn btn-default detailsBtn"><a href="${item.url}"><b>View More</b></a></button>
+                                <button class="btn btn-default detailsBtn"><a href="/single?movie=${encodeURIComponent(item.title).toLowerCase()}"><b>View More</b></a></button>
                             </div>
                         </div>
                         <h5><b>${item.title}</b></h5>

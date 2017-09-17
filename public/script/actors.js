@@ -1,23 +1,25 @@
-$(document).ready(function () {
+$(document).ready(function(){
   var url = document.location.search.split("=");
-  var actorName = decodeURIComponent(url[1]);
+  var decoded = decodeURIComponent(url[1]);
 
-  /*
-    var actors = [
-      {
-        name: 'Brad pit',
-        biography: 'Tako i tako...',
-        movies: ['prvi', 'drugi', 'treci']
-      },
-      {
-        name: 'Angelina Joline',
-        biography: 'Tako i tako...',
-        movies: ['prvi', 'drugi', 'treci']
-      }
-    ]
-  */
+  var actor = '';
+  actorsObject.forEach(function(item){
+      if(item.name.toLowerCase() == decoded.toLowerCase()) actor = item;
+  });
 
-  // Pronaci kroz actors.forEach(...) da bude (item.name == actorName) i vratit taj item
-  // u njemu ces imat tacnog glumca
+  $("#mainImg").attr("src", actor.image);
 
+  var actorElement =
+      `<div class="col-xs-12 col-sm-5">
+          <img class="img-responsive" id="poster" src="${actor.image}" />
+      </div>
+      <div class="col-xs-12 col-sm-7">
+        <div class="singleDescription">
+          <h1>${actor.name}</h1>
+          <p>${actor.biography}</p>
+       </div>
+     </div>`;
+
+
+  $(".actorsRow").append(actorElement);
 });
