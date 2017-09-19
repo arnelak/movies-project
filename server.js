@@ -10,18 +10,19 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use('/static', express.static('node_modules'));
 
-mongoose.connect('mongodb://localhost/moviesDB');
+//mongoose.connect('mongodb://localhost/moviesDB');
+mongoose.connect('mongodb://root:root@ds141514.mlab.com:41514/movies-test');
 
 app.get('/', function (req, res) {
   movieModel.find({}, function(err, result){
-    //console.info("RESULT",result);
+    console.info("RESULT",result);
   });
   res.render("index");
 });
 
 app.get('/single', function (req, res) {
   movieModel.findOne({title: req.query.movie}, function(err, result){
-    console.info("RESULT",result);
+    //console.info("RESULT",result);
   });
   res.render("single");
 });
